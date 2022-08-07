@@ -1,0 +1,19 @@
+{
+  "blogs": [
+    {
+      "coffee": "Opening Party!",
+      "price": "USD 1",
+      "id": 1
+    },
+    {
+      "coffee": "hello",
+      "price": "USD 1",
+      "id": 2
+    },
+    {
+      "coffee": "제목이고",
+      "price": "USD 1",
+      "id": 3
+    }
+  ]
+}

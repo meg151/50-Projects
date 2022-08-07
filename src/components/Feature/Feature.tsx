@@ -1,0 +1,18 @@
+import * as FeatureStyles from "components/Feature/Feature.styled";
+import { Link } from "react-router-dom";
+
+interface FeatureProps {
+  someProp?: any;
+}
+
+const Feature = ({ someProp }: FeatureProps) => {
+  return (
+    <FeatureStyles.Container>
+      <FeatureStyles.Image1 />
+      <FeatureStyles.Image2 />
+      <FeatureStyles.Image3 />
+    </FeatureStyles.Container>
+  );
+};
+
+export default Feature;
