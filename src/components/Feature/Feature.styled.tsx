@@ -7,6 +7,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 40px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const Image1 = styled.img.attrs({
@@ -16,8 +20,8 @@ export const Image1 = styled.img.attrs({
   height: 300px;
   margin-right: 30px;
   cursor: pointer;
-  opacity: 0.6;
   transition: 0.3s;
+  border-radius: 30px;
 
   &:hover {
     opacity: 1;
@@ -31,8 +35,8 @@ export const Image2 = styled.img.attrs({
   height: 300px;
   margin-right: 30px;
   cursor: pointer;
-  opacity: 0.6;
   transition: 0.3s;
+  border-radius: 30px;
 
   &:hover {
     opacity: 1;
@@ -45,8 +49,8 @@ export const Image3 = styled.img.attrs({
   width: 300px;
   height: 300px;
   cursor: pointer;
-  opacity: 0.6;
   transition: 0.3s;
+  border-radius: 30px;
 
   &:hover {
     opacity: 1;

@@ -4,11 +4,7 @@ interface TitleProps {
 }
 
 const Title = ({ someProp }: TitleProps) => {
-  return (
-    <TitleStyles.Container>
-      <h1>Market Lane Coffee</h1>
-    </TitleStyles.Container>
-  );
+  return <TitleStyles.Container />;
 };
 
 export default Title;

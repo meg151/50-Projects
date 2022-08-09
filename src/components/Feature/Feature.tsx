@@ -1,5 +1,4 @@
 import * as FeatureStyles from "components/Feature/Feature.styled";
-import { Link } from "react-router-dom";
 
 interface FeatureProps {
   someProp?: any;
